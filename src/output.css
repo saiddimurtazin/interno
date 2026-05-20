@@ -411,6 +411,12 @@
   .pt-\[40px\] {
     padding-top: 40px;
   }
+  .pt-\[50px\] {
+    padding-top: 50px;
+  }
+  .pt-\[100px\] {
+    padding-top: 100px;
+  }
   .pr-\[21px\] {
     padding-right: 21px;
   }
@@ -715,6 +721,11 @@
   .md\:px-0 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:pt-0 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 0);
     }
   }
   .md\:pt-\[50px\] {
