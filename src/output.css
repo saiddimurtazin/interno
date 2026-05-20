@@ -241,8 +241,14 @@
   .mb-\[45px\] {
     margin-bottom: 45px;
   }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
+  }
   .mb-\[52px\] {
     margin-bottom: 52px;
+  }
+  .mb-\[100px\] {
+    margin-bottom: 100px;
   }
   .mb-\[200px\] {
     margin-bottom: 200px;
@@ -256,11 +262,20 @@
   .ml-\[100px\] {
     margin-left: 100px;
   }
+  .ml-\[520px\] {
+    margin-left: 520px;
+  }
+  .ml-\[550px\] {
+    margin-left: 550px;
+  }
   .ml-\[600px\] {
     margin-left: 600px;
   }
   .ml-\[620px\] {
     margin-left: 620px;
+  }
+  .ml-\[625px\] {
+    margin-left: 625px;
   }
   .flex {
     display: flex;
@@ -558,6 +573,11 @@
       margin-top: 30px;
     }
   }
+  .md\:mt-\[50px\] {
+    @media (width >= 48rem) {
+      margin-top: 50px;
+    }
+  }
   .md\:mt-\[57px\] {
     @media (width >= 48rem) {
       margin-top: 57px;
@@ -568,9 +588,24 @@
       margin-top: 58px;
     }
   }
+  .md\:mt-\[83px\] {
+    @media (width >= 48rem) {
+      margin-top: 83px;
+    }
+  }
+  .md\:mt-\[88px\] {
+    @media (width >= 48rem) {
+      margin-top: 88px;
+    }
+  }
   .md\:mt-\[200px\] {
     @media (width >= 48rem) {
       margin-top: 200px;
+    }
+  }
+  .md\:mt-\[px\] {
+    @media (width >= 48rem) {
+      margin-top: px;
     }
   }
   .md\:mr-\[20px\] {
@@ -653,6 +688,11 @@
       height: 300px;
     }
   }
+  .md\:h-\[391px\] {
+    @media (width >= 48rem) {
+      height: 391px;
+    }
+  }
   .md\:h-\[600px\] {
     @media (width >= 48rem) {
       height: 600px;
@@ -708,16 +748,32 @@
       gap: 108px;
     }
   }
+  .md\:rounded-\[30px\] {
+    @media (width >= 48rem) {
+      border-radius: 30px;
+    }
+  }
   .md\:rounded-t-\[50px\] {
     @media (width >= 48rem) {
       border-top-left-radius: 50px;
       border-top-right-radius: 50px;
     }
   }
+  .md\:border {
+    @media (width >= 48rem) {
+      border-style: var(--tw-border-style);
+      border-width: 1px;
+    }
+  }
   .md\:border-b-0 {
     @media (width >= 48rem) {
       border-bottom-style: var(--tw-border-style);
       border-bottom-width: 0px;
+    }
+  }
+  .md\:bg-\[\#F4F0EC\] {
+    @media (width >= 48rem) {
+      background-color: #F4F0EC;
     }
   }
   .md\:bg-white {
