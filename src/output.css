@@ -13,6 +13,7 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-bold: 700;
+    --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -408,6 +409,9 @@
   .px-\[20px\] {
     padding-inline: 20px;
   }
+  .pt-\[00px\] {
+    padding-top: 00px;
+  }
   .pt-\[40px\] {
     padding-top: 40px;
   }
@@ -416,6 +420,9 @@
   }
   .pt-\[100px\] {
     padding-top: 100px;
+  }
+  .pt-\[406px\] {
+    padding-top: 406px;
   }
   .pr-\[21px\] {
     padding-right: 21px;
@@ -673,15 +680,44 @@
       gap: 108px;
     }
   }
+  .md\:rounded-2xl {
+    @media (width >= 48rem) {
+      border-radius: var(--radius-2xl);
+    }
+  }
   .md\:rounded-\[30px\] {
     @media (width >= 48rem) {
       border-radius: 30px;
+    }
+  }
+  .md\:rounded-t {
+    @media (width >= 48rem) {
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+  }
+  .md\:rounded-t-\[30px\] {
+    @media (width >= 48rem) {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
     }
   }
   .md\:rounded-t-\[50px\] {
     @media (width >= 48rem) {
       border-top-left-radius: 50px;
       border-top-right-radius: 50px;
+    }
+  }
+  .md\:rounded-t-\[70px\] {
+    @media (width >= 48rem) {
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+    }
+  }
+  .md\:rounded-b-\[70px\] {
+    @media (width >= 48rem) {
+      border-bottom-right-radius: 70px;
+      border-bottom-left-radius: 70px;
     }
   }
   .md\:border {
@@ -736,6 +772,16 @@
   .md\:pt-\[208px\] {
     @media (width >= 48rem) {
       padding-top: 208px;
+    }
+  }
+  .md\:pt-\[406px\] {
+    @media (width >= 48rem) {
+      padding-top: 406px;
+    }
+  }
+  .md\:pb-\[160px\] {
+    @media (width >= 48rem) {
+      padding-bottom: 160px;
     }
   }
   .md\:pl-\[52px\] {
