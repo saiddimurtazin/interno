@@ -220,6 +220,9 @@
   .mb-\[-20px\] {
     margin-bottom: -20px;
   }
+  .mb-\[15px\] {
+    margin-bottom: 15px;
+  }
   .mb-\[18px\] {
     margin-bottom: 18px;
   }
@@ -246,6 +249,12 @@
   }
   .mb-\[52px\] {
     margin-bottom: 52px;
+  }
+  .mb-\[58px\] {
+    margin-bottom: 58px;
+  }
+  .mb-\[100\] {
+    margin-bottom: 100;
   }
   .mb-\[100px\] {
     margin-bottom: 100px;
@@ -613,6 +622,11 @@
       margin-right: 20px;
     }
   }
+  .md\:mr-\[124px\] {
+    @media (width >= 48rem) {
+      margin-right: 124px;
+    }
+  }
   .md\:mb-0 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 0);
@@ -661,6 +675,11 @@
   .md\:ml-\[20px\] {
     @media (width >= 48rem) {
       margin-left: 20px;
+    }
+  }
+  .md\:ml-\[120px\] {
+    @media (width >= 48rem) {
+      margin-left: 120px;
     }
   }
   .md\:block {
