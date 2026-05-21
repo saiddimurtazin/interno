@@ -573,6 +573,11 @@
       margin-top: 88px;
     }
   }
+  .md\:mt-\[100px\] {
+    @media (width >= 48rem) {
+      margin-top: 100px;
+    }
+  }
   .md\:mt-\[150px\] {
     @media (width >= 48rem) {
       margin-top: 150px;
@@ -588,14 +593,29 @@
       margin-right: 20px;
     }
   }
+  .md\:mr-\[51px\] {
+    @media (width >= 48rem) {
+      margin-right: 51px;
+    }
+  }
   .md\:mr-\[116px\] {
     @media (width >= 48rem) {
       margin-right: 116px;
     }
   }
+  .md\:mr-\[120px\] {
+    @media (width >= 48rem) {
+      margin-right: 120px;
+    }
+  }
   .md\:mr-\[124px\] {
     @media (width >= 48rem) {
       margin-right: 124px;
+    }
+  }
+  .md\:mr-\[150px\] {
+    @media (width >= 48rem) {
+      margin-right: 150px;
     }
   }
   .md\:mb-0 {
@@ -608,9 +628,19 @@
       margin-bottom: 30px;
     }
   }
+  .md\:mb-\[50px\] {
+    @media (width >= 48rem) {
+      margin-bottom: 50px;
+    }
+  }
   .md\:mb-\[93px\] {
     @media (width >= 48rem) {
       margin-bottom: 93px;
+    }
+  }
+  .md\:mb-\[100px\] {
+    @media (width >= 48rem) {
+      margin-bottom: 100px;
     }
   }
   .md\:mb-\[150px\] {
@@ -646,6 +676,11 @@
   .md\:ml-\[120px\] {
     @media (width >= 48rem) {
       margin-left: 120px;
+    }
+  }
+  .md\:ml-\[220px\] {
+    @media (width >= 48rem) {
+      margin-left: 220px;
     }
   }
   .md\:block {
@@ -793,9 +828,19 @@
       padding-top: 50px;
     }
   }
+  .md\:pt-\[100\] {
+    @media (width >= 48rem) {
+      padding-top: 100;
+    }
+  }
   .md\:pt-\[208px\] {
     @media (width >= 48rem) {
       padding-top: 208px;
+    }
+  }
+  .md\:pt-\[406p\] {
+    @media (width >= 48rem) {
+      padding-top: 406p;
     }
   }
   .md\:pt-\[406px\] {
@@ -806,6 +851,16 @@
   .md\:pb-0 {
     @media (width >= 48rem) {
       padding-bottom: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:pb-\[100\] {
+    @media (width >= 48rem) {
+      padding-bottom: 100;
+    }
+  }
+  .md\:pb-\[100px\] {
+    @media (width >= 48rem) {
+      padding-bottom: 100px;
     }
   }
   .md\:pb-\[160px\] {
